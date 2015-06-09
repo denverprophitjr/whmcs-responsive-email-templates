@@ -9,10 +9,12 @@
                         <h1>Dear {$client_name}</h1>
 
                         <p style = "color: red; font-size: 24px; line-height: normal" class = "alert">
-                            This is the second overdue notice that invoice #{$invoice_num} which was generated
+                            This is the third and final overdue notice that invoice #{$invoice_num} which was generated
                             on {$invoice_date_created} is now overdue. </p>
 
-                        <p>You can login to your client area to view and pay the invoice at {$invoice_link}</p>
+                        <p>
+                            You can login to your client area to view and pay the invoice at {$invoice_link}
+                        </p>
                     </td>
                     <td class = "expander">&nbsp;</td>
                 </tr>
