@@ -31,14 +31,14 @@
 <td class="panel">
 <ul>
 <li>Department: {$ticket_department}</li>
-<li>Date Opened: {$ticket_date_opened</li>
+    <li>Date Opened: {$ticket_date_opened}</li>
 <li>Date Sent: {$date} - {$time}</li>
 <li>Rate Your Experience: <a title="Rate Your Experience" href="{$ticket_url}&amp;feedback=1" target="_blank">Here</a></li>
 </ul>
 <p><strong>This email is tracked in a support ticket system.</strong> If you need to discuss another topic, change the subject of your email <strong>before</strong> sending it.</p>
 <p>You can view your ticket online at: {$ticket_link}</p>
 </td>
-<td class="expander"> </td>
+    <td class="expander">&nbsp;</td>
 </tr>
 </tbody>
 </table>
