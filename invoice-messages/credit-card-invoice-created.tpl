@@ -33,7 +33,7 @@
                             </li>
                             <li>Sub-total: {$invoice_subtotal}</li>
                             <li>Credits: {$invoice_credit}</li>
-                            <li>Amount Due: <span><span>{$invoice_total}</span></span></li>
+                            <li>Amount Due: {$invoice_total}</li>
                             <li>Invoice Due Date: <span>{$invoice_date_due}</span></li>
                             <li>Invoice Balance: {$invoice_balance}</li>
                             <li>Account Balance: {$invoice_total_balance_due}</li>
