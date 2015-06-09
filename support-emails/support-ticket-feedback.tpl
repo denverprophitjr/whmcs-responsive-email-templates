@@ -9,11 +9,11 @@
 <h1>Hi, {$client_name}</h1>
 <p class="lead">This support request for {$ticket_subject} has been marked as completed. To reopen issue, reply above the quoted message with the subject left unaltered. It will not be necessary to inline quote any of this message to reopen the issue nor attach this message as a reply. Consider leaving a review on Yelp from the link below or share and connect with us on social media.</p>
 </td>
-<td class="expander"> </td>
+    <td class="expander">&nbsp;</td>
 </tr>
 <tr>
 <td><span class="lead">{$ticket_message}</span></td>
-<td class="expander"> </td>
+    <td class="expander">&nbsp;</td>
 </tr>
 </tbody>
 </table>
