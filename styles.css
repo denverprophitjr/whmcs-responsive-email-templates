@@ -56,7 +56,7 @@
         }
 
         td {
-            word-break: break-all;
+            word-break: normal;
             -webkit-hyphens: auto;
             -moz-hyphens: auto;
             hyphens: auto;
