@@ -12,7 +12,8 @@
                             reopen issue, reply above the quoted message with the subject left unaltered. It will not be
                             necessary to inline quote any of this message to reopen the issue nor attach this message as
                             a reply. Consider leaving a review on Yelp from the link below or share and connect with us
-                            on social media.</p>
+                            on social media.
+                        </p>
                     </td>
                     <td class="expander">&nbsp;</td>
                 </tr>
@@ -43,7 +44,8 @@
                             </li>
                         </ul>
                         <p><strong>This email is tracked in a support ticket system.</strong> If you need to discuss
-                            another topic, change the subject of your email <strong>before</strong> sending it.</p>
+                            another topic, change the subject of your email <strong>before</strong> sending it.
+                        </p>
 
                         <p>You can view your ticket online at: {$ticket_link}</p>
                     </td>
