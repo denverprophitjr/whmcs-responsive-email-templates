@@ -29,7 +29,7 @@
                     <td style = "word-break:normal;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 0 0 10px;">
                         <ul>
                             <li><strong>Renewal Length:</strong>&nbsp;{$domain_reg_period}</li>
-                            <li><strong>Domain Registrar:</strong>&nbsp;{$domain_next_due_date}</li>
+                            <li><strong>Domain Registrar:</strong>&nbsp;{$domain_registrar}</li>
                             <li><strong>DNS Management:</strong>&nbsp;{$domain_dns_management}</li>
                             <li><strong>Email Forwarding:</strong>&nbsp;{$domain_email_forwarding}</li>
                             <li><strong>ID Protection:</strong>&nbsp;{$domain_id_protection}</li>
@@ -61,6 +61,7 @@
                         <ul>
                             <li><strong>Order ID: </strong>&nbsp;{$domain_order_id}</li>
                             <li><strong>Amount: </strong>&nbsp;{$domain_recurring_amount}</li>
+                            <li><strong>Next Due On:</strong>&nbsp;{$domain_next_due_date}</li>
                         </ul>
                         <ul>
                             <li><strong>Name:</strong>&nbsp;{$client_first_name}&nbsp;{$client_last_name}</li>
