@@ -54,7 +54,7 @@
                         style = "word-break: break-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 10px !important;background: #ECF8FF none repeat scroll top left;border: 1px solid #b9e5ff;">
                         <ul>
                             <li>Department:&nbsp;{$ticket_department}</li>
-                            <li>Ticket ID:&nbsp{$ticket_id}</li>
+                            <li>Ticket ID:&nbsp;{$ticket_id}</li>
                             <li>Date Opened:&nbsp;{$ticket_date_opened}</li>
                             <li>Priority:&nbsp;{$ticket_priority}</li>
                             <li>Status:&nbsp;{$ticket_status}</li>
