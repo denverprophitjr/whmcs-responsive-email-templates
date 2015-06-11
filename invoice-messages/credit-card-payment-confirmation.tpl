@@ -15,8 +15,11 @@
                     <td class = "expander">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td><span class = "lead">The attached PDF file serves as your true payment receipt. Keep it for your records.</span>
+                    <td>
+                        <span class = "lead">The attached PDF file serves as your true payment receipt. Keep it for your records.</span>
                     </td>
+                </tr>
+                <tr>
                     <td>
                         <h2>Invoice Items</h2>
 

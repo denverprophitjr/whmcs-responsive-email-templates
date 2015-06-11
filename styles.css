@@ -56,7 +56,7 @@
         }
 
         td {
-            word-break: normal;
+            word-break: keep-all;
             -webkit-hyphens: auto;
             -moz-hyphens: auto;
             hyphens: auto;
@@ -449,7 +449,7 @@
         }
 
         h1, h2, h3, h4, h5, h6 {
-            word-break: normal;
+            word-break: keep-all;
         }
 
         h1 {
