@@ -35,10 +35,10 @@
                 <tr>
                     <td class="panel">
                         <ul>
-                            <li>Department: {$ticket_department}</li>
-                            <li>Date Opened: {$ticket_date_opened}</li>
-                            <li>Ticket Status: {$ticket_status}</li>
-                            <li>Date Sent: {$date} - {$time}</li>
+                            <li><strong>Department:</strong>&nbsp; {$ticket_department}</li>
+                            <li><strong>Date Opened:</strong>&nbsp; {$ticket_date_opened}</li>
+                            <li><strong>Ticket Status:</strong>&nbsp; {$ticket_status}</li>
+                            <li><strong>Sent:</strong>&nbsp; {$date} - {$time}</li>
                         </ul>
                     </td>
                     <td class="expander">&nbsp</td>
