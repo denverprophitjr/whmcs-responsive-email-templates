@@ -99,9 +99,9 @@
                             with username + email Password as specified in your control panel. cPanel includes
                             instructions for setting up email after you add any email accounts. We suggest you click yes
                             to this pop up for assistance.Use the control panel link above to setup your email accounts.
-                            See https://services.strikehawk.com/knowledgebase.php?action=displaycat&catid=999995 A
+                            See https://services.strikehawk.com/knowledgebase.php?action=displaycat&amp;catid=999995 A
                             complete list of email client programs and how to set them up can be found at
-                            https://services.strikehawk.com/knowledgebase.php?action=displaycat&catid=9999912 </p>
+                            https://services.strikehawk.com/knowledgebase.php?action=displaycat&amp;catid=9999912 </p>
                         <hr>
                         <h3>FTP LOGIN</h3>
                         <ul>
