@@ -9,11 +9,11 @@
 <h1>Hi, {$client_name}</h1>
 <p class="lead">We have opened an issue for you.</p>
 </td>
-<td class="expander"> </td>
+    <td class="expander">&nbsp;</td>
 </tr>
 <tr>
 <td><span class="lead">{$ticket_message}</span></td>
-<td class="expander"> </td>
+    <td class="expander">&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -40,7 +40,7 @@
 <p><strong>This email is tracked in a support ticket system.</strong> If you need to discuss another topic, change the subject of your email <strong>before</strong> sending it.</p>
 <p>You can view your ticket online at: {$ticket_link}</p>
 </td>
-<td class="expander"> </td>
+    <td class="expander">&nbsp;</td>
 </tr>
 </tbody>
 </table>
