@@ -159,7 +159,7 @@
                             using WHM please see the following link: http://www.cpanel.net/docs/whm/index.html If you
                             need to move accounts to the server use: Transfers Copy an account from another server with
                             account password http://xxxxxxx:2086/scripts2/norootcopy Note the other server must use
-                            cpanel to move it.</p>
+                            cPanel&trade; to move it.</p>
                     </td>
                 </tr>
                 </tbody>
