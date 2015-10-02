@@ -39,8 +39,7 @@
                             <li>Department: {$ticket_department}</li>
                             <li>Date Opened: {$ticket_date_opened}</li>
                             <li>Date Sent: {$date} - {$time}</li>
-                            <li>Rate Your Experience: <a title="Rate Your Experience"
-                                                         href="{$ticket_url}&amp;feedback=1" target="_blank">Here</a>
+                            <li>Rate Your Experience: <a title="Rate Your Experience" href="{$ticket_url}&amp;feedback=1" target="_blank">Here</a>
                             </li>
                         </ul>
                         <p><strong>This email is tracked in a support ticket system.</strong> If you need to discuss
