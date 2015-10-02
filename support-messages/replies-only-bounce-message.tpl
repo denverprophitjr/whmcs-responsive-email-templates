@@ -38,9 +38,9 @@
                 <tr>
                     <td class="panel">
                         <ul>
-                            <li><strong>Department:</strong>&nbsp; {$ticket_department}</li>
-                            <li><strong>Opened:</strong>&nbsp; {$ticket_date_opened}</li>
-                            <li><strong>Sent:</strong>&nbsp; {$date} - {$time}</li>
+                            <li><strong>Department:</strong>&nbsp;{$ticket_department}</li>
+                            <li><strong>Opened:</strong>&nbsp;{$ticket_date_opened}</li>
+                            <li><strong>Sent:</strong>&nbsp;{$date} - {$time}</li>
                         </ul>
                     </td>
                     <td class="expander">&nbsp;</td>
