@@ -7,7 +7,6 @@
                 <tr>
                     <td>
                         <h1>Attention Email Sender:</h1>
-
                         <p class = "lead">
                             The email you used is not associated with your <a title = "{$company_name} Billing Portal"
                                                                               href = "{$whmcs_url}/clientportal.php">{$company_name}
@@ -34,8 +33,8 @@
                 <tr>
                     <td class = "panel">
                         <ul>
-                            <li><strong>Department:</strong>&nbsp; {$ticket_department}</li>
-                            <li><strong>Date Opened:</strong>&nbsp; {$ticket_date_opened}</li>
+                            <li><strong>Department:</strong>&nbsp;{$ticket_department}</li>
+                            <li><strong>Date Opened:</strong>&nbsp;{$ticket_date_opened}</li>
                             <li><strong>Date Sent:</strong>&nbsp;{$date} - {$time}</li>
                         </ul>
                         <p>
