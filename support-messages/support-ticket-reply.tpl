@@ -16,8 +16,7 @@
                             We have replied to your issue.</p>
 
                         <p style = "color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:18px;line-height:21px;">
-                            <a href = "{$ticket_url}" title = "{$ticket_subject}">You can view the entire ticket thread
-                                                                                  here.</a>
+                            You can view your ticket online at this web address:&nbsp; <strong>{$ticket_link}</strong>
                         </p>
                     </td>
                     <td class = "expander"
@@ -27,7 +26,7 @@
                 </tr>
                 <tr style = "padding: 0;vertical-align:top;text-align:left;">
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 0 0 10px;">
-                        <span class = "lead" style = "font-size:18px;line-height:21px;">{$ticket_message}</span>
+                        <p class = "lead" style = "font-size:18px;line-height:21px;">{$ticket_message}</p>
                     </td>
                     <td class = "expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
