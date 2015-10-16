@@ -5,18 +5,27 @@
             <table class="twelve columns" style="border-spacing:0;border-collapse:collapse;padding: 0;vertical-align:top;text-align:left;margin: 0 auto;width:580px;">
                 <tbody>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 0 0 10px;">
-                        <h1>Invoice No: {$invoice_id}</h1>
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        <h1>Product / Service Invoice</h1>
 
                     <p class="lead"
-                       style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:18px;line-height:21px;">
-                        Invoices are generated on the 14th of each month and become due on the 26th to renew a monthly subscription or remittance of services rendered. General terms and conditions can be read at <a href="https://www.strikehawk.com/legal-disclaimers/terms-and-conditions/" title="Terms And Conditions">Terms & Conditions</a>.
+                       style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
+                        Dear {$client_name},<br> This is a notice that an invoice #{$invoice_num} has been generated
+                        on {$invoice_date_created} for services & products for the next billing cycle. The due date
+                        for this invoice is set to {$invoice_date_due}. General terms and conditions can be read at <a
+                                href="https://www.strikehawk.com/legal-disclaimers/terms-and-conditions/"
+                                title="Terms And Conditions">Terms & Conditions</a>.
                     </p>
+
+                        <p style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
+                            An invoice is considered overdue after this due date. We really appreciate your business!
+                        </p>
                     </td>
                     <td class="expander" style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">&nbsp;</td>
                 </tr>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
-                    <td class="container">
+                    <td class="container"
+                        style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:18px;padding-bottom: 20px;">
                         <h2>Invoice Items</h2>
                         {foreach key=num item=invoiceitem from=$invoice_items}
                             <p>
