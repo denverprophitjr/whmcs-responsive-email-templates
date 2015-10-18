@@ -11,7 +11,9 @@
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
                         <h1>Overdue Invoice: #{$invoice_num}</h1>
 
-                        <p class="lead">This is a billing notice that invoice no# {$invoice_num} which was generated
+                        <p class="lead"
+                           style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
+                            This is a billing notice that invoice no# {$invoice_num} which was generated
                             on {$invoice_date_created} is now overdue.
                         </p>
                     </td>
@@ -27,13 +29,15 @@
                             <p>
                                 <strong>{$invoiceitem.type}</strong> &nbsp; Amount: {$invoiceitem.amount}
                             </p>
-                        <ul>
-                            <li>{$invoiceitem.description}</li>
-                        </ul>
-                        {/foreach}</td>
+                            <ul>
+                                <li>{$invoiceitem.description}</li>
+                            </ul>
+                        {/foreach}
+                    </td>
                     <td class="expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
-                        &nbsp;</td>
+                        &nbsp;
+                    </td>
                 </tr>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td class="panel"

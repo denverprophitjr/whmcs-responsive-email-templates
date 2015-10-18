@@ -40,7 +40,8 @@
                             <ul>
                                 <li>{$invoiceitem.description}</li>
                             </ul>
-                        {/foreach}</td>
+                        {/foreach}
+                    </td>
                     <td class="expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
                         &nbsp;</td>
@@ -63,7 +64,8 @@
                     </td>
                     <td class="expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
-                        &nbsp;</td>
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>
