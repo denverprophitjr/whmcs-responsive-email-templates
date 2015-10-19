@@ -15,7 +15,7 @@
                         <p>This is a notice to inform you that your {$client_cc_type} credit card ending
                             with {$client_cc_number} will be expiring next month on <strong>{$client_cc_expiry}</strong>.
                             Please login to update your credit card information as soon as possible and prevent any
-                            interuptions in service.</p>
+                            interruptions in service.</p>
 
                         <p>If you have any questions regarding your account, please open a support ticket from the
                             client area.</p>
