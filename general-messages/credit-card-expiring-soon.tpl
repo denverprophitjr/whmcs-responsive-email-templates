@@ -10,23 +10,22 @@
                 <tr style="padding: 0; vertical-align: top; text-align: left;">
                     <td style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; padding: 0 0 10px;">
                         <h1 style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; padding: 0; margin: 0; text-align: left; line-height: 1.3; word-break: keep-all; font-size: 40px;">
-                            Dear {$client_first_name} {$client_last_name}:</h1>
+                            Dear {$client_first_name} {$client_last_name}:
+                        </h1>
 
-                        <p>This is a notice to inform you that your {$client_cc_type} credit card ending
-                            with {$client_cc_number} will be expiring next month on <strong>{$client_cc_expiry}</strong>.
-                            Please login to update your credit card information as soon as possible and prevent any
-                            interruptions in service.</p>
+                        <p>
+                            We have received your order and will be processing it shortly. The details of the order are
+                            below:
+                        </p>
 
                         <p>If you have any questions regarding your account, please open a support ticket from the
-                            client area.</p>
+                            client area.
+                        </p>
                     </td>
                     <td class="expander"
-                        style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; visibility: hidden; width: 0; padding: 0 !important;"> </td>
-                </tr>
-                <tr style="padding: 0; vertical-align: top; text-align: left;">
-                    <td style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; padding: 0 0 10px;"> </td>
-                    <td class="expander"
-                        style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; visibility: hidden; width: 0; padding: 0 !important;"> </td>
+                        style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; visibility: hidden; width: 0; padding: 0 !important;">
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>
