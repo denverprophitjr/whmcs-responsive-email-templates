@@ -67,3 +67,10 @@
     </tr>
     </tbody>
 </table>
+<div itemscope itemtype="http://schema.org/EmailMessage" style=
+"display:none">
+    <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+        <link itemprop="url" href="{$ticket_url}"/>
+        <meta itemprop="name" content="View ticket"/>
+    </div>
+</div>
