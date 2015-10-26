@@ -1,39 +1,58 @@
-<table class = "row">
+<table class="row"
+       style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding: 0;width:100%;position:relative;display:block;">
     <tbody>
-    <tr>
-        <td class = "wrapper last">
-            <table class = "twelve columns">
+    <tr style="padding: 0;vertical-align:top;text-align:left;">
+        <td class="wrapper last"
+            style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;position:relative;padding: 10px 0 0;">
+            <table class="twelve columns"
+                   style="border-spacing:0;border-collapse:collapse;padding: 0;vertical-align:top;text-align:left;margin: 0 auto;width:580px;">
                 <tbody>
-                <tr>
-                    <td>
-                        <h1>Invoice Payment Confirmation</h1>
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        <h1 style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;margin: 0;text-align:left;line-height: normal;word-break:keep-all;font-size:40px;">
+                            Invoice Payment Confirmation
+                        </h1>
 
-                        <p class = "lead">
+                        <p class="lead"
+                           style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
                             This is a payment receipt for Invoice #{$invoice_num} generated on {$invoice_date_created}.
-                            The payment has been taken from your card on record with us automatically. </p>
+                            The payment has been taken from your card on record with us automatically.
+                        </p>
                     </td>
-                    <td class = "expander">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class = "lead">The attached PDF file serves as your true payment receipt. Keep it for your records.</span>
+                    <td class="expander"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
+                        &nbsp;
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <h2>Invoice Items</h2>
-
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td class="container"
+                        style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:18px;padding-bottom: 20px;">
+                        <p class="lead"
+                           style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
+                            The attached PDF file serves as your true payment receipt. Keep it for your records.
+                        </p>
+                    </td>
+                </tr>
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td class="container"
+                        style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:18px;padding-bottom: 20px;">
+                        <h2 style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;margin: 0;text-align:left;line-height: normal;word-break:keep-all;font-size:32px;">
+                            Invoice Items
+                        </h2>
                         {foreach key=num item=invoiceitem from=$invoice_items}
                             <p>
-                                <strong>{$invoiceitem.type}</strong>
+                                <strong>{$invoiceitem.type}</strong> &nbsp; Amount: &nbsp;
+                                <strong>{$invoiceitem.amount}</strong>
                             </p>
                             <ul>
                                 <li>{$invoiceitem.description}</li>
-                                <li>Amount: {$invoiceitem.amount}</li>
                             </ul>
                         {/foreach}
                     </td>
-                    <td class = "expander">&nbsp;</td>
+                    <td class="expander"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -41,17 +60,21 @@
     </tr>
     </tbody>
 </table>
-<table class = "row callout">
+<table class="row callout"
+       style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;padding: 0;width:100%;position:relative;display:block;">
     <tbody>
-    <tr>
-        <td class = "wrapper last">
-            <table class = "twelve columns">
+    <tr style="padding: 0;vertical-align:top;text-align:left;">
+        <td class="wrapper last"
+            style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;position:relative;padding: 10px 0 20px;">
+            <table class="twelve columns"
+                   style="border-spacing:0;border-collapse:collapse;padding: 0;vertical-align:top;text-align:left;margin: 0 auto;width:580px;">
                 <tbody>
-                <tr>
-                    <td class = "panel">
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td class="panel"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 10px !important;background: #ECF8FF none repeat scroll top left;border: 1px solid #b9e5ff;">
                         <ul>
                             <li>Invoice Sub-total: {$invoice_subtotal}</li>
-                            <li>Invoice Credits: <span style = "color: green;">{$invoice_credit}</span></li>
+                            <li>Invoice Credits: <span style="color: green;">{$invoice_credit}</span></li>
                             <li>Invoice Tax: {$invoice_tax} - FL {$invoice_tax_rate}</li>
                             <li>This Invoice Total: {$invoice_total}</li>
                         </ul>
@@ -69,7 +92,10 @@
                             <li>Invoice Status: {$invoice_status}</li>
                         </ul>
                     </td>
-                    <td class = "expander">&nbsp;</td>
+                    <td class="expander"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>
