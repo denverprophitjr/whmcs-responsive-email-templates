@@ -52,7 +52,7 @@
                                     {$client_first_name}&nbsp;{$client_last_name}
                                 </strong>
                             </li>
-                            <li>Sub-total: {$invoice_subtotal}</li>
+                            <li>Sub-total: {$invoice_subtotal|substr:1}</li>
                             <li>Credits: {$invoice_credit}</li>
                             <li>Amount Due: {$invoice_total}</li>
                             <li>Invoice Due Date: <span>{$invoice_date_due}</span></li>
@@ -60,9 +60,10 @@
                             <li>Account Balance: {$invoice_total_balance_due}</li>
                         </ul>
                     </td>
-                    <td class="expander" class="expander"
+                    <td class="expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
-                        &nbsp;</td>
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>

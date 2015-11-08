@@ -9,8 +9,9 @@
                 <tbody>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        <h1>Product / Service Invoice</h1>
-
+                        <h1 style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;margin: 0;text-align:left;line-height: normal;word-break:normal;font-size:40px;">
+                            Product / Service Invoice
+                        </h1>
                         <p class="lead"
                            style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
                             Dear {$client_name},<br> This is a notice that an invoice #{$invoice_num} has been generated

@@ -27,7 +27,8 @@
                 </tr>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td>
-                        <p class="lead" style="font-size:18px;line-height:21px;">
+                        <p class="lead"
+                           style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:18px;line-height:21px;">
                             {$ticket_message}
                         </p>
                     </td>
