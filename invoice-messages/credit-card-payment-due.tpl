@@ -56,7 +56,8 @@
                     </td>
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
                         <span>{$client_city}
-                            <span>, &nbsp; <span>{$client_state}</span> &nbsp;<span>{$client_postcode}</span> &nbsp; <span>{$client_country}
+                            </span>, &nbsp; <span>{$client_state}</span> &nbsp;<span>{$client_postcode}</span> &nbsp;
+                        <span>{$client_country}</span>
                     </td>
                     <td class="expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
@@ -70,12 +71,12 @@
                             Invoice Details
                         </span>
                         <ul>
-                            <li>Sub-total:&nbsp; {$invoice_subtotal}</li>
-                            <li>Credits:&nbsp; {$invoice_credit}</li>
-                            <li>Amount Due:&nbsp; {$invoice_total}</li>
-                            <li>Invoice Due Date:&nbsp; {$invoice_date_due}</li>
-                            <li>Invoice Balance:&nbsp; {$invoice_balance}</li>
-                            <li>Account Balance:&nbsp; {$invoice_total_balance_due}</li>
+                            <li>Sub-total:&nbsp; <span>{$invoice_subtotal}</span></li>
+                            <li>Credits:&nbsp; <span>{$invoice_credit}</span></li>
+                            <li>Amount Due:&nbsp; <span>{$invoice_total}</span></li>
+                            <li>Invoice Due Date:&nbsp; <span>{$invoice_date_due}</span></li>
+                            <li>Invoice Balance:&nbsp; <span>{$invoice_balance}</span></li>
+                            <li>Account Balance:&nbsp; <span>{$invoice_total_balance_due}</span></li>
                         </ul>
                     </td>
                     <td class="expander"
@@ -125,3 +126,6 @@
     </tr>
     </tbody>
 </table>
+{assign var=invoicetotal value=$invoice_total.amount|replace:'$':''|replace:'USD':''}
+{assign var=invoicebalance value=$invoice_balance.amount|replace:'$':''|replace:'USD':''}
+{assign var=acctbalance value=$invoice_total_balance_due.amount|replace:'$':''|replace:'USD':''}
