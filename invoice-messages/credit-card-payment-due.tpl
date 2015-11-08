@@ -126,6 +126,8 @@
     </tr>
     </tbody>
 </table>
+{assign var=subtotal value=$invoice_subtotal.amount|replace:'$':''|replace:'USD':''}
+{assign var=credits value=$invoice_credit.amount|replace:'$':''|replace:'USD':''}
 {assign var=invoicetotal value=$invoice_total.amount|replace:'$':''|replace:'USD':''}
 {assign var=invoicebalance value=$invoice_balance.amount|replace:'$':''|replace:'USD':''}
 {assign var=acctbalance value=$invoice_total_balance_due.amount|replace:'$':''|replace:'USD':''}

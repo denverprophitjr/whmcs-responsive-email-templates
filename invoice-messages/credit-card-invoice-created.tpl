@@ -33,7 +33,9 @@
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td class="container"
                         style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:18px;padding-bottom: 20px;">
-                        <h2>Invoice Items</h2>
+                        <h2 style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;padding: 0;margin: 0;text-align:left;line-height: normal;word-break:normal;font-size:30px;">
+                            Invoice Items
+                        </h2>
                         {foreach key=num item=invoiceitem from=$invoice_items}
                             <p>
                                 <strong>{$invoiceitem.type}</strong> &nbsp; Amount: {$invoiceitem.amount}
@@ -48,19 +50,57 @@
                         &nbsp;</td>
                 </tr>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
-                    <td class="panel"
-                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 10px !important;background: #ECF8FF none repeat scroll top left;border: 1px solid #b9e5ff;">
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        Responsible Party:
+                    </td>
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        <span>{$client_first_name} &nbsp; {$client_last_name}</span> &nbsp; Client ID:
+                        <span>{$client_id}</span>
+                    </td>
+                    <td class="expander"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        Street Address:
+                    </td>
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        &nbsp;
+                    </td>
+                    <td class="expander"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        City/Region, State +Zip:
+                    </td>
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        <span>{$client_city}
+                            </span>, &nbsp; <span>{$client_state}</span> &nbsp;<span>{$client_postcode}</span> &nbsp;
+                        <span>{$client_country}</span>
+                    </td>
+                    <td class="expander"
+                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="padding: 0;vertical-align:top;text-align:left;">
+                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                        <span class="lead"
+                              style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
+                            Invoice Details
+                        </span>
                         <ul>
-                            <li>Responsible Party:&nbsp; <strong>
-                                    {$client_first_name}&nbsp;{$client_last_name}
-                                </strong>
-                            </li>
-                            <li>Sub-total:&nbsp; {$invoice_subtotal}</li>
-                            <li>Credits:&nbsp; {$invoice_credit}</li>
-                            <li>Amount Due:&nbsp; {$invoice_total}</li>
-                            <li>Invoice Due Date:&nbsp; {$invoice_date_due}</li>
-                            <li>Invoice Balance:&nbsp; {$invoice_balance}</li>
-                            <li>Account Balance:&nbsp; {$invoice_total_balance_due}</li>
+                            <li>Sub-total:&nbsp; <span>{$invoice_subtotal}</span></li>
+                            <li>Credits:&nbsp; <span>{$invoice_credit}</span></li>
+                            <li>Amount Due:&nbsp; <span>{$invoice_total}</span></li>
+                            <li>Invoice Due Date:&nbsp; <span>{$invoice_date_due}</span></li>
+                            <li>Invoice Balance:&nbsp; <span>{$invoice_balance}</span></li>
+                            <li>Account Balance:&nbsp; <span>{$invoice_total_balance_due}</span></li>
                         </ul>
                     </td>
                     <td class="expander"
@@ -99,3 +139,10 @@
     </tr>
     </tbody>
 </table>
+{assign var=itemamount value=$invoiceitem.amount|replace:'$':''|replace:'USD':''}
+{assign var=subtotal value=$invoice_subtotal.amount|replace:'$':''|replace:'USD':''}
+{assign var=credits value=$invoice_credit.amount|replace:'$':''|replace:'USD':''}
+{assign var=invoicetotal value=$invoice_total.amount|replace:'$':''|replace:'USD':''}
+{assign var=invoicebalance value=$invoice_balance.amount|replace:'$':''|replace:'USD':''}
+{assign var=acctbalance value=$invoice_total_balance_due.amount|replace:'$':''|replace:'USD':''}
+
