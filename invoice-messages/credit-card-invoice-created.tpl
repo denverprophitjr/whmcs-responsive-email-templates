@@ -51,37 +51,20 @@
                 </tr>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        Responsible Party:
-                    </td>
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        <span>{$client_first_name} &nbsp; {$client_last_name}</span> &nbsp; Client ID:
-                        <span>{$client_id}</span>
-                    </td>
-                    <td class="expander"
-                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
-                        &nbsp;
-                    </td>
-                </tr>
-                <tr style="padding: 0;vertical-align:top;text-align:left;">
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        Street Address:
-                    </td>
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        &nbsp;
-                    </td>
-                    <td class="expander"
-                        style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
-                        &nbsp;
-                    </td>
-                </tr>
-                <tr style="padding: 0;vertical-align:top;text-align:left;">
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        City/Region, State +Zip:
-                    </td>
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
-                        <span>{$client_city}
-                            </span>, &nbsp; <span>{$client_state}</span> &nbsp;<span>{$client_postcode}</span> &nbsp;
-                        <span>{$client_country}</span>
+                        <span class="lead"
+                              style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;padding: 0;text-align:left;margin: 0 0 10px;font-size:16px;line-height:20px;">
+                            Client Details
+                        </span>
+                        <ul style="font-weight: normal">
+                            <li>Client ID:&nbsp; <span>{$client_id}</span></li>
+                            <li>Responsible Party:&nbsp; <span>{$client_first_name} &nbsp; {$client_last_name}</span>
+                            </li>
+                            <li>Company Name: &nbsp; <span>{$client_company_name}</span></li>
+                            <li>Street Address:&nbsp;
+                                <span>{$client_address1}{if $client_address2}&nbsp; {$client_address2}{/if} </span></li>
+                            <li>City, State, ZIP:&nbsp; <span>{$client_city}</span>, &nbsp; <span>{$client_state}</span>
+                                &nbsp;<span>{$client_postcode}</span>&nbsp;<span>{$client_country}</span></li>
+                        </ul>
                     </td>
                     <td class="expander"
                         style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;visibility:hidden;width:0;padding: 0 !important;">
@@ -91,8 +74,8 @@
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
                         <span class="lead"
-                              style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
-                            Invoice Details
+                              style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;padding: 0;text-align:left;margin: 0 0 10px;font-size:20px;line-height:16px;">
+                            Invoice #{$invoice_num} &nbsp; Summary
                         </span>
                         <ul>
                             <li>Sub-total:&nbsp; <span>{$invoice_subtotal}</span></li>
