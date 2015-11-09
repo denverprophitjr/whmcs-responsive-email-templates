@@ -20,9 +20,9 @@
                                            style="border-spacing:0;border-collapse:collapse;padding: 0;vertical-align:top;text-align:left;margin: 0 auto;width:580px;">
                                         <tbody>
                                         <tr style="padding: 0;vertical-align:top;text-align:left;">
-                                            <td class="six sub-columns"
-                                                style="word-break: break-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;min-width:0;padding: 0 10px 10px 0;width:50%;">
-                                                <img src="{$company_logo_url}" alt="" width="440" height="94"
+                                            <td class=""
+                                                style="word-break: break-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;min-width:0;padding: 0 10px 10px 0;width:100%;">
+                                                <img src="{$company_logo_url}" alt="" width="" height="94"
                                                      style="outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;float:left;clear:both;display:block;"/>
                                             </td>
                                             <td class="expander"
