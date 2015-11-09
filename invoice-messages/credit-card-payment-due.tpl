@@ -48,10 +48,11 @@
                     </td>
                 </tr>
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
-                    <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;margin: 0;text-align:left;font-size:18px;line-height:21px;padding: 20px 0 20px;">
+                    <td class="panel"
+                        style="word-break: keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 10px !important;background: #ECF8FF none repeat scroll top left;border: 1px solid #b9e5ff;">
                         <span class="lead"
                               style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:bold;padding: 0;text-align:left;margin: 0 0 10px;font-size:20px;line-height:16px;">
-                            Invoice #{$invoice_num} &nbsp; Summary
+                            Invoice #{$invoice_num} Summary
                         </span>
                         <ul>
                             <li>Sub-total:&nbsp; <span>{$invoice_subtotal}</span></li>
