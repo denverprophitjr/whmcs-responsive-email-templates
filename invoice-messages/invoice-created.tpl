@@ -16,10 +16,10 @@
                         <p class="lead"
                            style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
                             Dear {$client_name},<br> This is a notice that an invoice #{$invoice_num} has been generated
-                            on {$invoice_date_created} for services & products for the next billing cycle. The due date
+                            on {$invoice_date_created} for services &amp; products for the next billing cycle. The due date
                             for this invoice is set to {$invoice_date_due}. General terms and conditions can be read at
                             <a href="https://www.strikehawk.com/legal-disclaimers/terms-and-conditions/"
-                               title="Terms And Conditions">Terms & Conditions</a>.
+                               title="Terms And Conditions">Terms &amp; Conditions</a>.
                         </p>
 
                         <p style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:14px;line-height:21px;">
