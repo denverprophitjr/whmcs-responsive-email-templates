@@ -50,8 +50,8 @@
                         </ul>
                         {if $service_config_options_html}
                             <div class="lead" style="font-size: 14px; line-height: 18px;">
-                        <p>You also asked for these options:</p>
-                        <p>{$service_config_options_html}</p>
+                                <p>You also asked for these options:</p>
+                                <p>{$service_config_options_html}</p>
                             </div>
                         {/if}
                     </td>
