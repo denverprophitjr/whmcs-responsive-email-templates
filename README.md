@@ -1,5 +1,5 @@
 # WHMCS Responsive Email Templates
-Responsive Email Templates for WHMCS includes embedded css styles that are necessary for certain services such as outlook.com, gmail.com and webmail. It is fully responsive and free to use under the GNU Public License. Please feel free to fork this project and submit issues and feature requests.
+Responsive Email Templates for WHMCS includes inline css styles that are necessary for certain services such as outlook.com, gmail.com and webmail. It is fully responsive and free to use under the GNU Public License. Please feel free to fork this project and submit issues and feature requests.
 - General Messages
 - Invoice Messages
 - Domain Messages
@@ -20,7 +20,8 @@ Responsive Email Templates for WHMCS includes embedded css styles that are neces
 4. Edit every message and replace its content with all the various *.tpl file's content.
 
 ## License
-You are free to use or modify however you wish. See license details for more information.
+[**Attribution-NonCommercial 4.0 International**](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 ## To-Do
 [] Gmail Actions
