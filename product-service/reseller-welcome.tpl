@@ -141,8 +141,8 @@
                     <td style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; padding: 0 0 10px;">
                         <h2>FTP Login Information</h2>
                         <ul>
-                            <li><strong>FTPES HOSTNAME:</strong> {$service_server_hostname} &amp;nbsp: <strong>SELECT
-                                    EXTENDED FTPES over TLS on port 21</strong></li>
+                            <li><strong>FTPES HOSTNAME:</strong>{$service_domain}<strong><br>
+                                    SELECT EXTENDED FTPES over TLS on port 21</strong></li>
                             <li><strong>USERNAME:</strong> {$service_username}</li>
                             <li><strong>PASSWORD:</strong> {$service_password}</li>
                         </ul>
