@@ -11,14 +11,13 @@
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 0 0 10px;">
                         <h1 style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;margin: 0;text-align:left;line-height:1.3;word-break:normal;font-size:40px;">
                             Hi, {$client_name}</h1>
-
                         <p class="lead"
                            style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:18px;line-height:21px;">
-                            This support request for {$ticket_subject} has been marked as completed. To
-                            reopen issue, reply above the quoted message with the subject left unaltered. It will not be
-                            necessary to inline quote any of this message to reopen the issue nor attach this message as
-                            a reply. Consider leaving a review on Yelp from the link below or share and connect with us
-                            on social media.
+                            This support request for {$ticket_subject} has been marked as completed or closed. To
+                            reopen issue, <a href="{$ticket_url}"><strong>click here</strong></a>. Closed issues do not
+                            accept replies. You must reopen from our client portal.
+                            Consider leaving a review on Yelp from the link below or share and connect with us on social
+                            media.
                         </p>
                     </td>
                     <td class="expander"
