@@ -10,12 +10,13 @@
                 <tr style="padding: 0;vertical-align:top;text-align:left;">
                     <td style="word-break:keep-all;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;border-collapse:collapse !important;vertical-align:top;color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;margin: 0;text-align:left;font-size:14px;line-height:19px;padding: 0 0 10px;">
                         <h1 style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;margin: 0;text-align:left;line-height:1.3;word-break:normal;font-size:40px;">
-                            Hi, {$client_name}</h1>
+                            Do not click reply on this email. The support issue has been closed.
+                        </h1>
                         <p class="lead"
                            style="color:#222222;font-family:'Helvetica', 'Arial', sans-serif;font-weight:normal;padding: 0;text-align:left;margin: 0 0 10px;font-size:18px;line-height:21px;">
                             This support request for {$ticket_subject} has been marked as completed or closed. To
                             reopen issue, <a href="{$ticket_url}"><strong>click here</strong></a>. Closed issues do not
-                            accept replies. You must reopen from our client portal.
+                            accept replies. You must <strong>reopen from our client portal</strong>.
                             Consider leaving a review on Yelp from the link below or share and connect with us on social
                             media.
                         </p>
@@ -57,7 +58,9 @@
                             <li>Department: {$ticket_department}</li>
                             <li>Date Opened: {$ticket_date_opened}</li>
                             <li>Date Sent: {$date} - {$time}</li>
-                            <li>Rate Your Technician: <a title="Rate Your Experience" href="{$ticket_url}&amp;feedback=1" target="_blank"><strong>Give Us Feedback?</strong></a>
+                            <li>Rate Your Technician: <a title="Rate Your Experience"
+                                                         href="{$ticket_url}&amp;feedback=1" target="_blank"><strong>Give
+                                        Us Feedback?</strong></a>
                             </li>
                         </ul>
                         <p class="lead"
