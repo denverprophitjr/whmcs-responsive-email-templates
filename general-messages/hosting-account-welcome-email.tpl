@@ -1,14 +1,21 @@
-<table class = "row">
+<table class="row"
+       style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0; width: 100%; position: relative; display: block;">
     <tbody>
-    <tr>
-        <td class = "wrapper last">
-            <table class = "twelve columns">
+    <tr style="padding: 0; vertical-align: top; text-align: left;">
+        <td class="wrapper last"
+            style="word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; position: relative; padding: 10px 0 0;">
+            >
+            <table class="twelve columns"
+                   style="border-spacing: 0; border-collapse: collapse; padding: 0; vertical-align: top; text-align: left; margin: 0 auto; width: 580px;">
                 <tbody>
-                <tr>
-                    <td>
-                        <h1>Account Setup: {$service_domain}</h1>
+                <tr style="padding: 0; vertical-align: top; text-align: left;">
+                    <td style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; padding: 0 0 10px;">
+                        <h1 style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; padding: 0; margin: 0; text-align: left; line-height: 1.3; word-break: normal; font-size: 40px;">
+                            Account Setup: {$service_domain}
+                        </h1>
 
-                        <p class = "lead">
+                        <p class="lead"
+                           style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; padding: 0; text-align: left; margin: 0 0 10px; font-size: 18px; line-height: 21px;">
                             <strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS</strong><br> Please bear in mind that
                                                                                             your
                                                                                         domain name will not be visible
@@ -38,10 +45,13 @@
                                                                                         username and password to access
                                                                                         ftp and your control panel. </p>
                     </td>
-                    <td class = "expander">&nbsp;</td>
+                    <td class="expander"
+                        style="word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; visibility: hidden; width: 0; padding: 0 !important;">
+                        &nbsp;
+                    </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr style="padding: 0; vertical-align: top; text-align: left;">
+                    <td style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; padding: 0 0 10px;">
                         <h2>New Account Info</h2>
                         <ul>
                             <li><strong>Domain Name:</strong>&nbsp; {$service_domain}</li>
@@ -124,7 +134,10 @@
                             {$service_config_options_html}
                         {/if}
                     </td>
-                    <td class = "expander">&nbsp;</td>
+                    <td class="expander"
+                        style="word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; visibility: hidden; width: 0; padding: 0 !important;">
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -132,14 +145,18 @@
     </tr>
     </tbody>
 </table>
-<table class = "row callout">
+<table class="row callout"
+       style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0; width: 100%; position: relative; display: block;">
     <tbody>
     <tr>
-        <td class = "wrapper last">
-            <table class = "twelve columns">
+        <td class="wrapper last"
+            style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; position: relative; padding: 10px 0 20px;">
+            <table class="twelve columns"
+                   style="border-spacing: 0; border-collapse: collapse; padding: 0; vertical-align: top; text-align: left; margin: 0 auto; width: 580px;">
                 <tbody>
                 <tr>
-                    <td class = "panel">
+                    <td class="panel"
+                        style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; padding: 10px !important; background: #ECF8FF none repeat scroll top left; border: 1px solid #b9e5ff;">
                         <ul>
                             <li>Order ID: {$service_order_id}</li>
                             <li>Hosting Package: {$service_product_name}</li>
@@ -148,7 +165,10 @@
                             <li>Renewal Amount: {$service_recurring_amount}</li>
                         </ul>
                     </td>
-                    <td class = "expander">&nbsp;</td>
+                    <td class="expander"
+                        style="word-break: keep-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; margin: 0; text-align: left; font-size: 14px; line-height: 19px; visibility: hidden; width: 0; padding: 0 !important;">
+                        &nbsp;
+                    </td>
                 </tr>
                 </tbody>
             </table>
