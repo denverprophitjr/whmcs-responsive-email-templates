@@ -5,6 +5,7 @@ Responsive Email Templates for WHMCS includes inline css styles that are necessa
 - Domain Messages
 - Admin Messages
 - Product / Service Messages
+- Support Messages
 
 ----------
 ## Features
