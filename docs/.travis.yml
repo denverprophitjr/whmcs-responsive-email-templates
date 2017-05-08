@@ -7,6 +7,7 @@ rvm:
 before_install:
   - bundle update
 script:
+  - chmod +x ./deploy.sh
   - bash ./deploy.sh
 
 env:
@@ -17,5 +18,5 @@ env:
 
 branches:
   only:
-  - master
+  - gh-pages
   
