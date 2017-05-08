@@ -7,8 +7,6 @@ theme: jekyll-theme-architect
 gems:
 - jekyll-mentions
 
-  port: 4009
-  
   exclude:
   - out
   - _site
