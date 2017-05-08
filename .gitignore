@@ -1,4 +1,4 @@
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Jekyll
 
 *.iml
 
@@ -47,3 +47,8 @@ crashlytics-build.properties
 
 # Windows
 /Thumbs.db
+
+# Jekyll
+_site/
+.sass-cache/
+out/
