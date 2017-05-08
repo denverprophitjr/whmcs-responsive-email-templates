@@ -5,8 +5,8 @@ show_downloads: true
 theme: jekyll-theme-architect
 
 gems:
-  - jekyll-mentions
-  - algoliasearch-jekyll
+- jekyll-mentions
+- algoliasearch-jekyll
   
   algolia:
   application_id: 'BW98CBKN8O'
