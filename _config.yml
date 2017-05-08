@@ -6,10 +6,4 @@ theme: jekyll-theme-architect
 
 gems:
 - jekyll-mentions
-
-  exclude:
-  - out
-  - _site
-  - _drafts
-  - configs/
-  - vendor
+- jekyll-paginate
