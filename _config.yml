@@ -6,12 +6,7 @@ theme: jekyll-theme-architect
 
 gems:
 - jekyll-mentions
-- algoliasearch-jekyll
-  
-  algolia:
-  application_id: 'BW98CBKN8O'
-  index_name:     'whmcs-email-theme'
-  
+
   port: 4009
   
   exclude:
