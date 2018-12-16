@@ -22,7 +22,7 @@ GEM
     ffi (1.9.17)
     forwardable-extended (2.6.0)
     httpclient (2.8.3)
-    jekyll (3.4.0)
+    jekyll (3.8.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
