@@ -11,7 +11,7 @@ GEM
       appraisal (~> 2.1.0)
       awesome_print (~> 1.6)
       json (~> 1.8)
-      nokogiri (~> 1.6)
+      nokogiri (~> 1.8.1)
       verbal_expressions (~> 0.1.5)
     appraisal (2.1.0)
       bundler
