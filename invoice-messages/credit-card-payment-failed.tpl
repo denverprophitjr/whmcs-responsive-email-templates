@@ -47,7 +47,7 @@
                                 <li>Amount: <span style = "color: green;">{$invoiceitem.amount}</span></li>
                             {/foreach}
                         </ul>
-                        {/if}</td>
+                     </td>
                     <td class = "expander">&nbsp;</td>
                 </tr>
                 </tbody>
